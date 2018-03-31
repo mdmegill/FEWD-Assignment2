@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Matt Megill
 Developer @GA in NYC
 */
 
@@ -28,10 +28,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
-  background-size: cover;
-}
-
+  }
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -42,12 +39,109 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  background-size: cover;
+  }
+
+header {
+  display: inline;
 }
 
-header {}
+footer {
+  text-align: center;
+  background-color: #121212;
+}
 
-footer {}
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 0;
+}
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+h2{
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+section h2{
+  color: #033048;
+  font-size: 20px;
+  text-align: left;
+  margin-top: zero;
+}
+
+section p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+}
+
+section ul {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+}
+
+h3{
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.firstbutton{
+  background-color: #f9e42e;
+  font-weight: 800;
+  font-size: 14px;
+  color: #033048;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.secondbutton{
+  background-color: #033048;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.quote{
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+footer h1{
+  color: #f9e42e;
+}
+
+footer p{
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.benefits{
+  background-color: #f0efef;
+  background: cover;
+}
+
+.testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);;
+  background-size: cover;
+}
