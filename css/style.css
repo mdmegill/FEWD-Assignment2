@@ -43,6 +43,12 @@ body {
   background-size: cover;
   }
 
+  .container2 {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    }
+
 header {
   display: inline;
 }
@@ -92,7 +98,7 @@ h3{
   text-align: center;
 }
 
-.center{
+.buttoncenter{
   text-align: center;
 }
 
@@ -115,7 +121,7 @@ h3{
   border: none;
   text-decoration: none;
   border-radius: 5px;
-  display: inline-block;
+  display: inline block;
 }
 
 .quote{
@@ -144,4 +150,9 @@ footer p{
 .testimonial{
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);;
   background-size: cover;
+}
+
+.buttonsurround{
+  background-color: #f9e42e;
+  padding: 35px;
 }
