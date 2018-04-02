@@ -28,7 +28,8 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  }
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -38,19 +39,16 @@ body {
 .container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  min-height: 400px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
   background-size: cover;
-  }
+}
 
-  .container2 {
-    width: 100%;
-    margin: auto;
-    height: 300px;
-    }
-
-header {
-  display: inline;
+.container2 {
+  width: 100%;
+  margin: auto;
+  min-height: 300px;
+  margin-bottom: 0;
 }
 
 footer {
@@ -58,51 +56,65 @@ footer {
   background-color: #121212;
 }
 
-h1 {
+header h1 {
   color: white;
   font-size: 24px;
   font-weight: 800;
+  padding-top: 15px;
+  padding-left: 60px;
   margin-top: 0;
 }
 
-h2{
+header h2 {
   color: white;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 
-section h2{
+section h2 {
   color: #033048;
   font-size: 20px;
+  font-weight: 600;
   text-align: left;
-  margin-top: zero;
+  padding-left: 60px;
+  padding-top: 30px;
+  margin-right: 40%;
+  margin-top: 0;
 }
 
 section p {
   font-weight: 300;
   font-size: 13px;
   color: #606161;
+  margin-left: 60px;
+  margin-right: 40%;
 }
 
 section ul {
   font-weight: 300;
   font-size: 13px;
   color: #606161;
+  margin-left: 120px;
+  margin-right: 40%;
 }
 
-h3{
+h3 {
   font-weight: 600;
   font-size: 18px;
   color: white;
   text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 0;
 }
 
-.buttoncenter{
+.button-center {
   text-align: center;
 }
 
-.firstbutton{
+.yellow-button {
   background-color: #f9e42e;
   font-weight: 800;
   font-size: 14px;
@@ -111,9 +123,10 @@ h3{
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
+  padding: 12px;
 }
 
-.secondbutton{
+.blue-button {
   background-color: #033048;
   color: white;
   font-weight: 800;
@@ -121,10 +134,11 @@ h3{
   border: none;
   text-decoration: none;
   border-radius: 5px;
-  display: inline block;
+  display: inline-block;
+  padding: 12px;
 }
 
-.quote{
+.quote {
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
@@ -132,27 +146,53 @@ h3{
   text-align: center;
 }
 
-footer h1{
-  color: #f9e42e;
+p.quote {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
 }
 
-footer p{
+footer h1 {
+  color: #f9e42e;
+  margin-top: 0;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+footer p {
   color: white;
   font-size: 9px;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
-.benefits{
+.benefits {
   background-color: #f0efef;
-  background: cover;
-}
-
-.testimonial{
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);;
   background-size: cover;
+  margin-bottom: 0;
 }
 
-.buttonsurround{
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  ;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.button-surround {
   background-color: #f9e42e;
   padding: 35px;
+}
+
+img {
+  padding: 10px;
+  padding-bottom: 25px;
+  height: 60px;
+  width: auto;
+}
+
+li {
+  padding: 2.5px;
 }
